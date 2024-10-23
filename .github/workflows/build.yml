@@ -19,7 +19,7 @@ jobs:
           depth: 1
           vendor: true
           vendor_url: https://github.com/realme-kernel-opensource/realme_q2pro-AndroidS-vendor-source
-          vendor_dir: vendor
+          vendor_dir: vendor/vendor
           kernel-branch: master
           vendor-branch: master
           config: k6853v1_64_6360_defconfig
