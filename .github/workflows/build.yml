@@ -15,14 +15,15 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/realme-kernel-opensource/realme_q2pro-AndroidS-kernel-source
+          kernel-url: https://github.com/Paspartame/kernel
           depth: 1
           vendor: true
-          vendor_url: https://github.com/realme-kernel-opensource/realme_q2pro-AndroidS-vendor-source
+          vendor_url: https://github.com/Paspartame/vendor
           kernel-branch: master
           vendor-branch: master
           config: k6853v1_64_6360_defconfig
           arch: arm64
+          ccache: true
           aosp-gcc: true
           aosp-clang: true
           ksu: true
